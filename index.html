@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal porfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  </head>
+
+<body>
+  <div class="body">
+  <h1 id="msg"></h1>
+    <nav class="navbar">
+       <ul class="menu">
+         <li><a href="#HOME">Home</a></li>
+         <li><a href="#aboutMe">About Me</a></li>
+         <li><a href="#SERVICE">Service</a></li>
+         <li><a href="#SKILL">Skills</a></li>
+         <li><a href="#PORTFOLIO">Portfolio</a></li>
+         <li><a href="#CONTACT">Contact Me</a></li>
+       </ul>
+    </nav>
+
+    <section id="HOME" class="home">
+      <div class="main">
+        <h1 class="heading">I Am <br> Krishna Sahu</h1>
+        <a href="https://www.linkedin.com/in/krishna-sahu-2a3508209/" class="btn">
+          Hire Me
+        </a>
+      </div>
+    </section>
+
+    <section id="aboutMe" class="about" >
+        <h1 class="heading">ABOUT ME</h1>
+        <div  class="pic">
+            <img src="profile.jpeg" class="img">
+            <div id="intro">
+              <h2>krishna sahu</h2>
+
+              <p>I am pursuing a  Master in computer applications and I absolutely love writing code. 
+                Ever since writing my first program in C language and manipulating it to produce a desired output.
+                I have been obsessed with the idea of using software to solve practical problems.
+                Problem Solving is a never-ending process that I'm passionately appreciate.
+                I believe in the power of programming to transform and improve the lives of people around the world.
+                I endeavour to solve complex problems by adopting optimumalgorithms approaches and have the ability to explain the solutions to the peers in such a way that to easy tounderstand and adopt.
+              </p>
+
+            </div>
+       </div>
+    </section>
+
+
+    <section id="SERVICE" class="service">
+         <h1 style="color: black;" class="heading">SERVICE</h1>
+    </section>
+
+    <div class="box-main">
+    <div class="box">
+      <div class="card">
+        <!-- <i class="fas fa-bars"></i> -->
+        <h5>Frontend Development</h5>
+        <div class="pra">
+          <p>A front-end developer builds the front-end portion of websites and web applications. A front-end developer creates websites and applications using web languages such as HTML, CSS, and JavaScript that allow users to access and interact with the site or app.</p>
+           <p style="text-align: center;">
+             <a href="" class="btn"> Read more</a>
+           </p>
+        </div>
+      </div>
+    </div>
+    <div class="box">
+      <div class="card">
+        <!-- <i class="fas fa-User"></i> -->
+        <h5>Backend Development</h5>
+        <div class="pra">
+          <p>Back-end developers ensure the website performs correctly, focusing on databases, back-end logic, application programming interface (APIs), architecture, and servers</p>
+           <p style="text-align: center;">
+             <a href="" class="btn"> Read more</a>
+           </p>
+        </div>
+      </div>
+    </div>
+    <div class="box">
+      <div class="card">
+        <!-- <i class="fas fa-bell"></i> -->
+        <h5>Full Stack Development</h5>
+        <div class="pra">
+          <p>MERN Stack developers are in demand. The main purpose of using MERN stack is to develop apps using JavaScript only. This is because the four technologies that make up the technology stack are all JS-based.</p>
+           <p style="text-align: center;">
+             <a href="" class="btn"> Read more</a>
+           </p>
+        </div>
+      </div>
+    </div>
+    </div> 
+ 
+    <section id="SKILL" class="Skill">
+      <h1 style="color: black;" class="heading">SKILLS</h1>
+    </section>
+
+    <div class="container">
+      <div class="carousel">
+          <div class="image"><span>HTML</span></div>
+          <div class="image"><span>CSS</span></div>
+          <div class="image"><span>JavaScript</span></div>
+          <div class="image"><span>React Js</span></div>
+          <div class="image"><span>Angular Js</span></div>
+          <div class="image"><span>Node JS</span></div>
+          <div class="image"><span>Mongo DB</span></div>
+          <div class="image"><span>Express Js</span></div>
+          <div class="image"><span>More</span></div>
+      </div>
+    </div>
+  
+    
+    <section id="PORTFOLIO" class="portfolio">
+      <h1 class="heading">PORTFOLIO</h1>
+      <h3 class="portsub">My Few Amazing Works Using React</h3>
+      <p class="portsub1">Most common method for designing website that work well on desktop in responsive and adoptive design </p>
+      <div class="photo">
+       <img src="Screenshot (3).png" alt=" Screenshot3" class="port"> 
+       <img src="Screenshot (4).png" class="port">
+       <img src="Screenshot (6).png" alt="Screenshot3" class="port">
+      </div>
+ </section>
+
+    <section id="CONTACT" class="Contact">
+      <h1  style="color: black;" class="contactme">CONTACT ME</h1>
+    </section>
+
+    <div class="cont" style="background-color: black;"> 
+      <div class="contactinfo">
+
+        <form class="form" id="sub" method="post" name="contactform" id="contactform" action="">
+          <div class="row">
+            <div>
+              <label for="fname">Full Name</label>
+            </div>
+            <div>
+              <input required name="name" id="name" class="btn name" type="text" placeholder="Your name..">
+            </div>
+          </div>
+          <div class="row">
+            <div>
+              <label for="email">Email</label>
+            </div>
+            <div>
+              <input required name="email" id="email" class="btn email" type="email" placeholder="Your email..">
+            </div>
+          </div>
+          <div class="row">
+            <div>
+              <label for="country">Country</label>
+            </div>
+            <div>
+              <select required id="country" class="btn country" name="country">
+                <option style="color: black;" class="btn" value="India">India</option>
+                <option  style="color: black;" class="btn" value="australia">Australia</option>
+                <option  style="color: black;" class="btn" value="canada">Canada</option>
+                <option  style="color: black;" class="btn" value="usa">USA</option>
+                <option  style="color: black;"class="btn" value="japan">japan</option>
+              </select>
+            </div>
+          </div>
+          <div class="row">
+            <div>
+              <label for="subject">Subject</label>
+            </div>
+            <div>
+              <textarea  class="btn text" id="subject" name="subject" placeholder="Write something.." style="height:70px"></textarea>
+            </div>
+          </div>
+          <div>
+            <input class="btn" type="submit" id="submit" value="Submit">
+          </div>
+        </form>
+      </div>
+  </div>
+
+  <div class="social">
+    <ul class="follow">
+      <div></div>
+      <li>
+          <a href="https://github.com/krishnacodes1">
+            <span class="fa-brands fa-github"></span>
+          </a>
+      </li>
+      <li>
+          <a href="https://twitter.com/Krishna__sahu_">
+              <span class="fa-brands fa-twitter"></span>
+          </a>
+      </li>
+      <li>
+          <a href="#">
+              <span class="fa-brands fa-instagram"></span>
+          </a>
+      </li>
+      <li>
+          <a href="https://www.linkedin.com/in/krishna-sahu-2a3508209/">
+              <span class="fa-brands fa-linkedin"></span>
+          </a>
+      </li>
+      <div></div>
+  </ul>
+  </div>
+
+  <footer>
+     <div style="background-color:black; height: 25px; margin-top: 20px;">
+      <h4 style="  justify-content: center;  align-items: center; text-decoration: aliceblue;">Copyright:2022 krishnasahu@gmail.com</h4>
+     </div>
+  </footer>
+
+  
+</div>
+  </body>
+
+    <script src="script.js"></script>
+  
+  <!-- <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxGmpw3qMXmgONOkSjXrBZyKm1iLoDdLzYSMMWB5EawFXb3lZH81Kga8-jpS-20kFcK/exec'
+    const form = document.forms['contactform']
+    
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => alert("Thank you! your form is submitted successfully." ))
+      .then(() => {  window.location.reload(); })
+      .catch(error => console.error('Error!', error.message))
+    })
+    </script> -->
+</html>
